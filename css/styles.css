@@ -13,6 +13,7 @@
 
 :root{
     --min-color: #fff;
+    --fs-color: #0cdaa6;
     --sc-color: #be1c1c;
     --th-color: #3d3c3c;
 }
@@ -48,11 +49,50 @@ header .navbar a{
 
 header .navbar a:hover,
 header .fa-bars:hover{
-    color: var(--sc-color);
+    color: var(--fs-color);
 }
 
 header .fa-bars{
     font-size: 2.2rem;
     color: var(--min-color);
     cursor: pointer;
+    display: flex;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* media query */
+@media(max-width: 750px){
+    header .fa-bars{
+        display: block;
+    }
+
+    header .navbar{
+        position: fixed;
+        top: 7rem; left: 0;
+        text-align: center;
+        background-color: rgba(10,10,10, 0.6);
+        width:100%;
+    }
+    header .navbar a{
+        display: block;
+        margin:0.3rem 0;
+        padding: 1rem;
+        font-size: 2.6rem;
+        color: var(--min-color);
+    }
+    header .navbar a:hover{
+        background: var(--min-color);
+
+    }
+
+
 }
