@@ -58,6 +58,12 @@ header .fa-bars{
     cursor: pointer;
     display: flex;
 }
+.image{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
 
 
 
