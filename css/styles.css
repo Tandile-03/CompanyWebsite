@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Fredoka&family=Golos+Text&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka&family=Golos+Text&family=Raleway&display=swap');
 
 *{
     box-sizing: border-box;
@@ -8,7 +8,7 @@
     text-decoration: none;
     text-transform: capitalize;
     transition: all 0.25s linear;
-    font-family: 'Golos text', sans-serif;
+    font-family: 'Raleway', sans-serif;
 }
 
 :root{
